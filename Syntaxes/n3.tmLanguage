@@ -35,6 +35,25 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
+					<string>meta.tag</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^(\@base )\s*(&lt;[^ \&gt;]*&gt;)\s*.</string>
+			<key>name</key>
+			<string>meta.preprocessor.base.n3</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.language</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
 					<string>constant</string>
 				</dict>
 				<key>3</key>
